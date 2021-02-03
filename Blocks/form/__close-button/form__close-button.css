@@ -1,0 +1,23 @@
+.form__close-button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  object-fit: cover;
+  position: absolute;
+  width: 55px;
+  top: -45px;
+  right: -45px;
+}
+
+.form__close-button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .form__close-button {
+    width: 36px;
+    top: -49px;
+    right: 0;
+  }
+}
